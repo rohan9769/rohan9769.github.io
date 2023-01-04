@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rohan's Portfolio Website</title>
+    <meta name="description" content="Clean HTML portfolio template, responsive, open-source, and ready to use!">
+    <meta name="author" content="Giosuè Sulipano">
+
+    <!-- Mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Minimalist CSS -->
+    <link rel="stylesheet" href="assets/css/minimalist.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/WebsiteLogo.png">
+
+  </head>
+  <body>
+    <!-- User info -->
+    <header>
+      <div class="container">
+        <div class="row justify-content-lg-center">
+          <div class="col-lg-2 text-center">
+            <img src="profilePic.jpg" class="user-image rounded-circle" alt="Name Surname">
+          </div>
+          <div class="col-lg-7">
+            <h2>Rohan Nayak</h2>
+            <p class="text-justify">
+              Hi! I am Rohan . I am a graduate student at Northeastern University majoring in Computer Software Engineering(Information Systems). I take problems as a challenge and work hard to get them resolved. I am also a Full Stack Software Engineer who is passionate about solving complex problems, building impactful products. I have strong skills in Software Development and Designing, Architecture Design, and Backend Programming.
+            </p>
+            <ul class="list-inline text-lg-right social-icons">
+              <li class="list-inline-item"><a href="https://github.com/rohan9769" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item"><a href="https://tinyurl.com/RSNCV" target="_blank"><i class="fas fa-file-pdf"></i></i></a></li>
+              <!-- If you have another kind of blog (such as Hugo, ...) you can remove dev.to and use the next list-item 
+              <li class="list-inline-item"><a href="#" target="_blank"><i class="fas fa-pencil-alt"></i></a></li>
+              -->
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/rsnayak21/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="list-inline-item"><a href="mailto:nayak.ro@northeastern.edu" target="_blank"><i class="fas fa-at"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/roncr_7/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Content -->
+    <section>
+      <!-- ./content-switch -->
+      <div class="d-flex justify-content-center">
+        <div class="list-group list-group-horizontal-md" id="content-tabs" role="tablist">
+          <a class="list-group-item small text-uppercase" id="list-education-list" data-toggle="list" href="#education" role="tab">Education</a>
+
+          <a class="list-group-item small text-uppercase active " id="list-experience-list" data-toggle="list" href="#experience" role="tab">Experience</a>
+          <a class="list-group-item small text-uppercase" id="list-projects-list" data-toggle="list" href="#projects" role="tab">Projects</a>
+          <a class="list-group-item small text-uppercase" id="list-projects-list" data-toggle="list" href="#skills" role="tab">Skills</a>
+
+
+        </div>
+      </div>
+      <!-- ./content-switch -->
+      <!-- ./content-body -->
+      <div class="container pt-5 tab-content">
+        <!-- ./experience-panel-->
+        <div class="tab-pane fade show active" id="experience" role="tabpanel">
+          <div class="row justify-content-lg-center">
+            <div class="col-lg">
+              <!-- Timeline -->
+              <div class="timeline-container">
+
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Walmart Global Tech</h3>
+                    <span class="timeline-span">Software Engineer III Intern</span>
+                    <p class="text-muted small mb-3">May 2022 - Aug 2022</p>
+                    <p class="timeline-p text-justify">
+                      <ul>
+                        <li>
+                          Architectured and Developed an API Authoring tool using ReactJS, ExpressJS and Node which reduced API development time by 30%
+                        </li>
+                        <li>
+                          Implemented several REST APIs for CRUD operations, auto populating form fields and integrated Swagger UI for auto document generation
+                        </li>
+                        <li>
+                          Devised a parser to parse application generated JSON file to an Open API Specification compatible JSON file
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div class="marker"></div>
+                </div>
+
+
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">iPing Data Labs LLP</h3>
+                    <span class="timeline-span">Software Developer (Full Stack)</span>
+                    <p class="text-muted small mb-3">Sept 2020 - Feb 2021</p>
+                    <p class="timeline-p text-justify">
+                      <ul>
+                        <li>
+                          Engineered 20+ components, developed the entire UI of their AI Based platform in ReactJS and Implemented key critical modules such as
+                          Role based authentication and Single Sign On
+                        </li>
+                        <li>
+                          Built complex database schemas in MySQL and optimized complex queries improving the system’s performance by 60%
+                        </li>
+                        <li>
+                          Implemented numerous RESTful services using Fast API which improved API calling time from 15.2ms to 4ms
+                        </li>
+                        <!-- <li>
+                          Implemented Several HTTP REST services using Fast API which 
+                          improved API calling times from 15.2ms to 6.2ms
+                        </li> -->
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+            
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Pioneer Enterprises</h3>
+                    <span class="timeline-span">Software Development Engineer - I</span>
+                    <p class="text-muted small mb-3">Jan 2020 - Jun 2020</p>
+                    <p class="timeline-p text-justify">
+                      <ul>
+                        <li>
+                          Led a team of 2 to develop a web application using ReactJS, NodeJS and RESTful APIs to store status of several requests in IBM DB2
+                          relational database for use by over 40 employees of the organization
+                        </li>
+                        <li>
+                          Implemented an API rate limiter to limit the number of requests received per day which reduced infrastructure cost by 30% and increased
+                          fault tolerance of the application by 70%
+                        </li>
+                        <li>
+                          Coded 30+ HTTP requests consuming RxJS observable library to handle multiple API calls over time
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div class="marker"></div>
+                </div>
+            
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Larsen & Toubro Infotech Ltd</h3>
+                    <span class="timeline-span">Graduate Engineer Trainee</span>
+                    <p class="text-muted small mb-3">Aug 2018 - Nov 2019</p>
+                    <p class="timeline-p text-justify">
+                      <ul>
+                        <li>
+                          Developed various backend microservices in Spring boot, Hibernate and configured/setup secure AWS EC2 instances
+                        </li>
+                        <li>
+                          Optimized SQL queries to improve data retrieval speed and reduce query processing time by 50%
+                        </li>
+                        <li>
+                          Automated manual tasks by deploying service bots built using Automation Anywhere which reduced downtime by 44%
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+            
+                <!-- <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Fourth Year</h3>
+                    <span class="timeline-span">Some work experience</span>
+                    <p class="text-muted small mb-3">Experience Date</p>
+                    <p class="timeline-p text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                  </div>
+                  <div class="marker"></div>
+                </div>
+            
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Fifth Year</h3>
+                    <span class="timeline-span">Some work experience</span>
+                    <p class="text-muted small mb-3">Experience Date</p>
+                    <p class="timeline-p text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                  </div>
+                </div> -->
+              </div>
+              <!-- ./timeline -->
+            </div>
+          </div>
+        </div>
+
+        <!-- ./projects-panel-->
+        <div class="tab-pane fade show" id="projects" role="tabpanel">
+          <!-- TODO: Projects cards? Dunno. -->
+          <div class="row justify-content-lg-center">
+            <!-- ./project-1 -->
+            <div class="col-lg-8 pb-3">
+              <h3 style="text-align: center;">Some of my best projects</h3>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">DevConnector MERN App</h4>
+                  <p class="card-text">Social Media Application for Developers</p>
+                  <ul class="list-inline social-icons">
+                    <li class="list-inline-item"><a href="https://dry-garden-00409.herokuapp.com/"><i class="fas fa-link"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/rohan9769/DevConnector" target="_blank"><i class="fab fa-github"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+            <!-- ./project-2 -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">DjCRM - Django Based CRM Portal</h4>
+                  <p class="card-text">Customer and Sales Managment Portal</p>
+                  <ul class="list-inline social-icons">
+                    <li class="list-inline-item"><a href="https://github.com/rohan9769/Django-CRM-Portal"><i class="fas fa-link"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/rohan9769/Django-CRM-Portal" target="_blank"><i class="fab fa-github"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+            <!-- ./project-3 -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Hospice Care Management System</h4>
+                  <p class="card-text">A GUI based Application made using Java 8</p>
+                  <ul class="list-inline social-icons">
+                    <li class="list-inline-item"><a href="https://github.com/rohan9769/HospiceCareManagementSystem"><i class="fas fa-link"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/rohan9769/HospiceCareManagementSystem" target="_blank"><i class="fab fa-github"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+              <div class="col-lg-8 pb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">My Notebook</h4>
+                    <p class="card-text">A serverless note taking application made using AWS serverless stack</p>
+                    <ul class="list-inline social-icons">
+                      <li class="list-inline-item"><a href=""><i class="fas fa-link"></i></a></li>
+                      <li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+
+
+        <div class="tab-pane fade show" id="skills" role="tabpanel">
+          <!-- TODO: Projects cards? Dunno. -->
+          <div class="row justify-content-lg-center">
+            <!-- ./project-1 -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"><u>Languages</u></h4> 
+                  <p class="card-text">
+                    <strong><i>Python, Java, JavaScript, TypeScript, C, C++</i></strong>
+                  </p>
+                  <h4 class="card-title"><u>Web Technologies and Frameworks</u></h4>
+                  <p class="card-text">
+                    <strong><i>HTML, CSS, Bootstrap5, Angular, Express.js, React.js, Node.js, Django, Spring Boot, Hibernate</i></strong>
+                  </p>
+                  <h4 class="card-title"><u>Databases</u></h4>
+                  <p class="card-text">
+                    <strong><i>NoSQL, MySQL, DynamoDB, IBM DB2, Oracle 10g, MongoDB, PostgreSQL, SQLite3</i></strong>
+                  </p>
+                  <h4 class="card-title"><u>Cloud Technologies and OS</u></h4>
+                  <p class="card-text">
+                    <strong><i>Microsoft Azure, AWS EC2, AWS Amplify, Windows, MacOS, Linux</i></strong>
+                  </p>
+                  <h4 class="card-title"><u>DevOps</u></h4>
+                  <p class="card-text">
+                    <strong><i>Git, GitHub, Bitbucket, Docker, Jenkins, Kubernetes</i></strong>
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+            <!-- ./project-2 -->
+            <!-- <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Project Title</h4>
+                  <p class="card-text">Project description, bla, bla, bla..</p>
+                  <ul class="list-inline social-icons">
+                    <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div> -->
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+            <!-- ./project-3 -->
+            <!-- <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Project Title</h4>
+                  <p class="card-text">Project description, bla, bla, bla..</p>
+                  <ul class="list-inline social-icons">
+                    <li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div> -->
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+          </div>
+        </div>
+
+        <!-- Education Panel -->
+        <div class="tab-pane fade show " id="education" role="tabpanel">
+          <div class="row justify-content-lg-center">
+            <div class="col-lg">
+              <!-- Timeline -->
+              <div class="timeline-container">
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Northeastern University</h3>
+                    <span class="timeline-span">Boston , Massachusetts</span>
+                    <p class="text-muted small mb-3">Sept 2021 - May 2023</p>
+                    <p class="timeline-p text-justify">
+                      Relevant Courses  :
+                      <ul>
+                        <li>Application Engineering and Development</li>
+                        <li>Database Design and Managment</li>
+                        <li>Web Design and User Experience</li>
+                        <li>Program Structures and Algorithms</li>
+                        <li>User Experience Design and Testing</li>
+                        <li>Software Quality Control and Management</li>
+                        <li>Advanced Big Data Application and Indexing</li>
+                        <li>Business Analysis and Information Engineering</li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+            
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">University of Mumbai</h3>
+                    <span class="timeline-span">Mumbai , India</span>
+                    <p class="text-muted small mb-3">Jun 2014 - Jul 2018</p>
+                    <p class="timeline-p text-justify">
+                      Relevant Courses  :
+                      <ul>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Distributed Systems</li>
+                        <li>Operating Systems</li>
+                        <li>Object Oriented Design and Programming</li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div class="marker"></div>
+                </div>
+              </div>
+              <!-- ./timeline -->
+            </div>
+          </div>
+        </div>
+
+
+
+        
+      </div>
+    </section>
+    <footer>
+      <div class="container text-center">
+        <p class="small">
+          Made by Rohan S Nayak
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
